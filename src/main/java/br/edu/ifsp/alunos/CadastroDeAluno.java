@@ -14,6 +14,7 @@ public class CadastroDeAluno {
 
         em.getTransaction().begin();
 
+
         em.persist(aluno1);
 
         em.getTransaction().commit();
