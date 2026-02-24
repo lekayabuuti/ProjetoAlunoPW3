@@ -8,7 +8,7 @@ import jakarta.persistence.Persistence;
 public class CadastroDeAluno {
     public static void main(String[] args) {
         Aluno aluno1 = new Aluno();
-        EntityManagerFactory factory = Persistence.createEntityManagerFactory("loja");
+        EntityManagerFactory factory = Persistence.createEntityManagerFactory("aluno");
 
         EntityManager em = factory.createEntityManager();
 
