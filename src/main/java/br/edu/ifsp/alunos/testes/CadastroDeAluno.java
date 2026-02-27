@@ -14,6 +14,7 @@ public class CadastroDeAluno {
 
     public static void main(String[] args) {
 
+        //Alunos: Érick Rosdachimo Ribeiro e Letícia Kaori Yabuuti
         EntityManager em = JPAUtil.getEntityManager();
 
         AlunoDAO dao = new AlunoDAO(em);
